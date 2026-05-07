@@ -41,7 +41,7 @@ export default function Contact() {
                 <FileText className="w-5 h-5 text-zinc-400" />
                 <span className="text-zinc-400">Permis</span>
               </div>
-              <p className="text-white text-lg">Permis voiture</p>
+              <p className="text-white text-lg">Permis B</p>
             </div>
           </div>
         </div>
