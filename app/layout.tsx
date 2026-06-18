@@ -9,11 +9,11 @@ export const metadata: Metadata = {
     default: "Portfolio",
     template: "%s | portfolio",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "Etudiant alternant en développement web à Atos France",
   openGraph: {
     title: "portfolio",
     description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
+      "Etudiant alternant en développement web à Atos France",
     url: "https://portfolio",
     siteName: "portfolio",
     images: [

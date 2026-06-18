@@ -86,6 +86,43 @@ export default async function ProjectsPage() {
               </a>
             </Card>
           </div>
+
+          <div className="flex flex-col w-full gap-8 mx-auto border-t border-gray-900/10 lg:mx-0 lg:border-t-0 ">
+            <Card>
+              <a
+                href="https://psso.experisfrance.fr/connexion"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <article className="relative w-full h-full p-4 md:p-8">
+                  <img
+                    src="/Experis_Logo.png"
+                    alt="Logo Experis"
+                    className="absolute top-4 right-4 h-12 w-auto rounded-full bg-white/10 p-2"
+                  />
+                  <div className="flex items-center justify-between gap-2">
+                    <div className="text-xs text-zinc-100">
+                      <time dateTime={new Date("05/07/2026").toISOString()}>
+                        {Intl.DateTimeFormat(undefined, {
+                          dateStyle: "medium",
+                        }).format(new Date("05/07/2026"))}
+                      </time>
+                    </div>
+                  </div>
+                  <h2
+                    id="featured-post"
+                    className="mt-4 text-3xl font-bold text-zinc-100 group-hover:text-white sm:text-4xl font-display"
+                  >
+                    PSSO
+                  </h2>
+                  <p className="mt-4 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300">
+                    Application officielle d'Experis France pour gérer leur parc informatique. Cette application existe depuis
+                    longtemps et a été cible d'énormément de changements auxquels j'ai pu activement participer.
+                  </p>
+                </article>
+              </a>
+            </Card>
+          </div>
         </div>
         <div className="hidden w-full h-px md:block bg-zinc-800" />
 
