@@ -5,6 +5,7 @@ import { Card } from "../components/card";
 import { Article } from "./article";
 import { createRedisClient } from "@/lib/redis";
 import { Eye } from "lucide-react";
+import Footer from "../components/footer";
 
 export const dynamic = "force-dynamic";
 export default async function ProjectsPage() {
@@ -237,6 +238,7 @@ export default async function ProjectsPage() {
           <div className="grid grid-cols-1 gap-4"></div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

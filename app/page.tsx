@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Particles from "./components/particles";
+import Footer from "./components/footer";
 
 const navigation = [
   { name: "Projets", href: "/projects" },
@@ -44,6 +45,9 @@ export default function Home() {
             Atos France
           </Link>.
         </h2>
+      </div>
+      <div className="duration-1000 animate-title">
+        <Footer />
       </div>
     </div>
   );

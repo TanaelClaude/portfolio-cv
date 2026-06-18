@@ -10,6 +10,7 @@ import {
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
+import Footer from "../components/footer";
 
 export default function Contact() {
   return (
@@ -278,6 +279,8 @@ export default function Contact() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
+
