@@ -95,6 +95,9 @@ export default function Contact() {
                   <div className="flex flex-wrap gap-2 mb-3">
                     <span className="text-sm bg-zinc-800/50 text-zinc-300 px-3 py-1 rounded">
                       2021 - 2024
+                    </span>{" "}
+                    <span className="text-sm bg-zinc-800/50 text-zinc-300 px-3 py-1 rounded">
+                      Début chez Atos
                     </span>
                   </div>
                   <ul className="text-zinc-300 text-sm space-y-2">
@@ -203,7 +206,7 @@ export default function Contact() {
               <p className="text-sm text-zinc-400">Scripting & Data</p>
             </div>
 
-			{/* SQL */}
+            {/* SQL */}
             <div className="bg-zinc-900/50 border border-zinc-800 rounded-lg p-6 backdrop-blur hover:border-zinc-700 transition-colors">
               <div className="aspect-square bg-zinc-800/50 rounded-lg mb-4 flex items-center justify-center">
                 <img
@@ -213,10 +216,12 @@ export default function Contact() {
                 />
               </div>
               <h4 className="font-semibold text-white mb-1">SQL</h4>
-              <p className="text-sm text-zinc-400">Database Design & Querying</p>
+              <p className="text-sm text-zinc-400">
+                Database Design & Querying
+              </p>
             </div>
 
-			{/* Git & CI/CD */}
+            {/* Git & CI/CD */}
             <div className="bg-zinc-900/50 border border-zinc-800 rounded-lg p-6 backdrop-blur hover:border-zinc-700 transition-colors">
               <div className="aspect-square bg-zinc-800/50 rounded-lg mb-4 flex items-center justify-center">
                 <img
@@ -231,10 +236,12 @@ export default function Contact() {
                 />
               </div>
               <h4 className="font-semibold text-white mb-1">Git & CI/CD</h4>
-              <p className="text-sm text-zinc-400">Version Control & Automation</p>
+              <p className="text-sm text-zinc-400">
+                Version Control & Automation
+              </p>
             </div>
 
-			{/* Docker & Kubernetes */}
+            {/* Docker & Kubernetes */}
             <div className="bg-zinc-900/50 border border-zinc-800 rounded-lg p-6 backdrop-blur hover:border-zinc-700 transition-colors">
               <div className="aspect-square bg-zinc-800/50 rounded-lg mb-4 flex items-center justify-center">
                 <img
@@ -248,11 +255,15 @@ export default function Contact() {
                   className="w-12 h-12"
                 />
               </div>
-              <h4 className="font-semibold text-white mb-1">Docker & Kubernetes</h4>
-              <p className="text-sm text-zinc-400">Containerization & Orchestration</p>
+              <h4 className="font-semibold text-white mb-1">
+                Docker & Kubernetes
+              </h4>
+              <p className="text-sm text-zinc-400">
+                Containerization & Orchestration
+              </p>
             </div>
 
-			{/* C# / .NET */}
+            {/* C# / .NET */}
             <div className="bg-zinc-900/50 border border-zinc-800 rounded-lg p-6 backdrop-blur hover:border-zinc-700 transition-colors">
               <div className="aspect-square bg-zinc-800/50 rounded-lg mb-4 flex items-center justify-center">
                 <img
