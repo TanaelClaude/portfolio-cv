@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1781791381039,
+    "name": "testnom",
+    "email": "toastman@man.man",
+    "message": "fsfsdfdf",
+    "date": "2026-06-18T14:03:01.039Z"
+  },
+  {
+    "id": 1781791272115,
+    "name": "toastman",
+    "email": "toastman@man.man",
+    "message": "TOAST MAN!!",
+    "date": "2026-06-18T14:01:12.115Z"
+  },
+  {
+    "id": 1781791140271,
+    "name": "testnom",
+    "email": "TestKube@kube.com",
+    "message": "OUAIS TEST\n",
+    "date": "2026-06-18T13:59:00.271Z"
+  }
+]
